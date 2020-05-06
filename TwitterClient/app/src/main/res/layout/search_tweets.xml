@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Search for # tags"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/searchbar"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionGo"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp" />
+
+    <ListView
+        android:id="@+id/searchtweetlistview"
+        android:layout_width="match_parent"
+        android:layout_height="575dp"
+
+        android:layout_alignParentTop="true"
+
+
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="54dp" />
+
+</RelativeLayout>

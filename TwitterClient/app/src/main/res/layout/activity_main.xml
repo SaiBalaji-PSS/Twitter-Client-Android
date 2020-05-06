@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="146dp"
+        android:src="@drawable/twitter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="186dp"
+        android:fontFamily="sans-serif-black"
+        android:text="See what's"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="253dp"
+        android:fontFamily="sans-serif-black"
+        android:text="happening in the world right now."
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/loginbtn"
+
+        android:layout_marginTop="501dp" />
+
+
+</RelativeLayout>

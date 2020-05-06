@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Home"
+    android:icon="@drawable/ic_action_home"
+    android:iconTint="@android:color/black"
+    app:showAsAction="ifRoom"
+    android:id="@+id/homeoption"
+    android:enabled="true"/>
+    <item
+        android:title="Compose"
+        android:icon="@drawable/ic_action_speaker_notes"
+        android:iconTint="@android:color/black"
+        app:showAsAction="ifRoom"
+        android:id="@+id/sendoption"
+        android:enabled="true"/>
+    <item
+        android:title="Search"
+        android:icon="@drawable/ic_action_search"
+        android:iconTint="@android:color/black"
+        app:showAsAction="ifRoom"
+        android:id="@+id/searchoption"
+        />
+    <item
+        android:title="My Profile"
+        android:icon="@drawable/ic_action_account_box"
+        android:iconTint="@android:color/black"
+        app:showAsAction="ifRoom"
+        android:id="@+id/mytweetoption"
+        />
+</menu>
