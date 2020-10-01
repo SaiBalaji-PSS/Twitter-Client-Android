@@ -1,7 +1,6 @@
 # Twitter-Client-Android
 Built using Java and Twitter Android SDK
-A minimalistic Twitter client which can Post Tweets retrive Home TimeLine, Search TimeLine
-
+A minimalistic Twitter client which can Post Tweets retrive Home TimeLine, Search TimeLine for tweets
 ![Capture](https://user-images.githubusercontent.com/51410810/81171631-54588d80-8fba-11ea-89fd-c3135d6c7c86.PNG)
 ![Capture5](https://user-images.githubusercontent.com/51410810/81171644-5a4e6e80-8fba-11ea-909f-50979af4aa86.PNG)
 ![Capture6](https://user-images.githubusercontent.com/51410810/81171651-5c183200-8fba-11ea-9030-0ff2a6ae8009.PNG)
